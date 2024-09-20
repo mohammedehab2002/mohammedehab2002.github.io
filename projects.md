@@ -10,7 +10,7 @@ The goal was to synthesize a controller for a robot to perform in the uneven bar
 
 The controller was designed to minimize the total energy spent and synthesized via non-linear optimization. The hardest part to figure out was how to model what happens when the robot loses contact with the bar, since the dynamics change. The solution was to treat the point of contact with the bar as a free-moving joint that is locked in place until release. Feel free to read the detailed report here.
 
-![](https://github.com/mohammedehab2002/uneven-bars-robot/blob/main/uneven-bars-simulation.gif)
+![]([https://github.com/mohammedehab2002/mohammedehab2002.github.io/blob/gh-pages/uneven-bars-simulation.gif])
 
 ---
 

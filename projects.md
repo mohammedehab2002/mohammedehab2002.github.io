@@ -17,7 +17,9 @@ The controller was designed to minimize the total energy spent and synthesized v
 ## Robotics: Science & Systems Racecar
 
 Throughout the semester in 6.141, students work in a team to develop the functionality of a racecar the staff gives to us at the start of the semester. By the end of the semester, the car is capable of wall following, basic vision, localization, and trajectory planning and following. The cars then completes a race around a 400m racetrack as well as an autonomous driving challenge.
-Our car Sonny (short for son-of-a-bitch) was able to complete the race track at 4 m/s (the maximum speed staff allowed us to use) as well as the driving challenge. For more details on Sonny, please see our team's website.
+Our car Sonny (short for son-of-a-bitch) was able to complete the race track at 4 m/s (the maximum speed staff allowed us to use) as well as the driving challenge. For more details on Sonny, please see our team's [website](https://rss2024-2.github.io/website/labs/).
+
+![](curved_lane.mov)
 
 # Deep Learning
 

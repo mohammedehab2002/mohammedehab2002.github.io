@@ -10,4 +10,4 @@ Hi! I'm a senior studying Electrical Engineering & Computer Science @ MIT. I'm c
 
 ## Research Interests
 
-I'm interested in robotics, especially underactuated and bio-inspired robots. I'm also interested in optimization and numerical methods, especially semi-definite optimization.
+I'm interested in robotics, especially underactuated and bio-inspired robots. Since they're useful tools for the former, I'm also interested in optimization and numerical methods, especially semi-definite optimization. Finally, I'm also interested in understanding deep learning better, especially generative models.

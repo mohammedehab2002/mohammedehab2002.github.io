@@ -27,6 +27,8 @@ GANs are astonishing generative models that remained the best models we have for
 
 The goal of the project was to find practically-implementable dynamics that actually converge. One reason I believe diffusion models overtook GANs is that their optimization problem is much easier to solve, a standard minimization problem instead of a min-max problem. The project turns the GAN optimization problem into a minimization problem as well, except on a manifold. The idea is to optimize the generator and discriminator parameters simultaneously while staying on the manifold where the discriminator gives a best response to the generator. For the technical details, please read the project report.
 
+![](https://github.com/mohammedehab2002/mohammedehab2002.github.io/blob/gh-pages/manifold.png)
+
 ## Diffusion Model Theory and Adaptation to MRFs (Final Project for Algorithmic Statistics)
 
 Diffusion models are the current best method for learning how to sample from general distributions given some samples. But what if the distributions have some structure to them?
@@ -34,3 +36,6 @@ Diffusion models are the current best method for learning how to sample from gen
 This project aimed at adapting diffusion models to distributions that could be modelled as Markov Random Fields (MRFs). MRFs model high-dimensional distributions where each variable depends on a few other variables. A very practical use of that is image super-resolution tasks, where each new pixel in the upsampled images only really depends on its local neighborhood in the low-quality image. I showed that if we leverage the structure of MRFs, in theory, we need much smaller neural networks inside our diffusion models, which could make models for tasks like image super-resolution much faster to train.
 
 I also studied optimizing the noise schedule for diffusion models so they converge faster to these structured distributions. The details can be found here.
+
+
+![](https://github.com/mohammedehab2002/mohammedehab2002.github.io/blob/gh-pages/superres.png)

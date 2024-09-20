@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+<img class="profile-picture" src="headshot.jpg">
 
 Hi! I'm a senior studying Electrical Engineering & Computer Science @ MIT. I'm currently focusing my studies on robotics. Outside of school, I like to make art in the form of piano, bachata, fire spinning, or singing in choir.
 

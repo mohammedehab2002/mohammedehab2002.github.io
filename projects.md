@@ -10,7 +10,7 @@ The goal was to synthesize a controller for a robot to perform in the uneven bar
 
 The controller was designed to minimize the total energy spent and synthesized via non-linear optimization. The hardest part to figure out was how to model what happens when the robot loses contact with the bar, since the dynamics change. The solution was to treat the point of contact with the bar as a free-moving joint that is locked in place until release. Feel free to read the detailed report here.
 
-![](https://github.com/mohammedehab2002/mohammedehab2002.github.io/blob/gh-pages/uneven-bars-simulation.gif)
+![](uneven-bars-simulation.gif)
 
 ---
 
@@ -27,7 +27,7 @@ GANs are astonishing generative models that remained the best models we have for
 
 The goal of the project was to find practically-implementable dynamics that actually converge. One reason I believe diffusion models overtook GANs is that their optimization problem is much easier to solve, a standard minimization problem instead of a min-max problem. The project turns the GAN optimization problem into a minimization problem as well, except on a manifold. The idea is to optimize the generator and discriminator parameters simultaneously while staying on the manifold where the discriminator gives a best response to the generator. For the technical details, please read the project report.
 
-![](https://github.com/mohammedehab2002/mohammedehab2002.github.io/blob/gh-pages/manifold.png)
+![](manifold.png)
 
 ## Diffusion Model Theory and Adaptation to MRFs (Final Project for Algorithmic Statistics)
 
@@ -38,4 +38,4 @@ This project aimed at adapting diffusion models to distributions that could be m
 I also studied optimizing the noise schedule for diffusion models so they converge faster to these structured distributions. The details can be found here.
 
 
-![](https://github.com/mohammedehab2002/mohammedehab2002.github.io/blob/gh-pages/superres.png)
+![](superres.png)

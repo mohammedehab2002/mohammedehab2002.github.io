@@ -4,6 +4,10 @@ layout: default
 
 # Robotics
 
+## Evaluating SOTA learning-based VPR methods in the context of SLAM (Final project for Visual Navigation of Autonomous Vehicles)
+
+Visual place recognition is an important subproblem in SLAM systems crucial for detecting loop closures. However, even modern SLAM systems like [Kimera](https://github.com/MIT-SPARK/Kimera) use old approaches like bag-of-words in their loop closure module. Independently in the computer vision community, learning-based approaches like [SALAD](https://github.com/serizba/salad) demonstrated very impressive recall on VPR datasets. The goal of this project was to incorporate SALAD into Kimera and evaluate its improvement on realistic SLAM datasets. The code can be found [here](https://github.com/mohammedehab2002/Kimera-VIO), and the technical report can be found [here](16_485_Final_Project.pdf).
+
 ## Uneven Bars Robot (Final project for Underactuated Robotics)
 
 The goal was to synthesize a controller for a robot to perform in the uneven bars gymnastics event. Specifically, to swing from a still position and jump from the high to the low bar.

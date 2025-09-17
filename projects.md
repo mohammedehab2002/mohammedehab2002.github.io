@@ -2,7 +2,11 @@
 layout: default
 ---
 
-# Robotics
+## Improving Protein Diffusion Model Designability via RL Fine-Tuning (Final project for Diffusion Models)
+
+SOTA protein diffusion models such as Genie2 and Proteina suffer from a core problem: they were trained on both designable and undesignable protein backbones due to the lack of enough designable protein data. As a result, a lot of proteins they generate are not designable. To mitigate that issue, the authors apply a low-temperature sampling trick that "sharpens" the output distribution, increasing the probability on proteins that are already likely and decreasing it for unlikely proteins. That trick boosts the designability of the model, on the expense of reducing the diversity of the proteins coming from it, killing potentially useful protein clusters.
+
+In this project, joint with Kasra Mazaheri, we show that there's no inherent trade-off between designability and diversity. We show that the problem is more properly formulated as an RL fine-tuning problem, where we'd like to sample from the distribuition of proteins conditioned on them being designable. We develop a novel RL fine-tuning method and show that it's theoretically possible to boost the designability to 100% without sacrificing the diversity at all. We are currently working on securing the compute resources to train a model with our method, reported in more detail [here](6_S892_Final_Project.pdf).
 
 ## Evaluating SOTA learning-based VPR methods in the context of SLAM (Final project for Visual Navigation of Autonomous Vehicles)
 
@@ -15,10 +19,6 @@ The goal was to synthesize a controller for a robot to perform in the uneven bar
 The controller was designed to minimize the total energy spent and synthesized via non-linear optimization. The hardest part to figure out was how to model what happens when the robot loses contact with the bar, since the dynamics change. The solution was to treat the point of contact with the bar as a free-moving joint that is locked in place until release. Feel free to read the detailed report [here](6.8210 final report.pdf).
 
 ![](uneven-bars-simulation.gif)
-
----
-
-# Deep Learning
 
 ## Towards Theoretically-Grounded GAN Training (Final project for Topics in Multi-Agent Learning)
 

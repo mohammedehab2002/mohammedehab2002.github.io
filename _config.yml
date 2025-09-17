@@ -16,6 +16,6 @@ sass:
 
 nav:
  - name: "Resume"
-   link: "/resume.pdf"
+   link: "/meng_resume.pdf"
  - name: "Projects"
    link: "projects"
